@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Load Dataset
 @st.cache_data
 def load_data():
-    data = pd.read_csv("main_data.csv")
+    data = pd.read_csv("dashboard/main_data.csv")
     return data
 
 df_bike_all = load_data()
